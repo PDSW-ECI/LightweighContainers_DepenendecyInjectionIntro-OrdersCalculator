@@ -11,7 +11,7 @@ Se le ha pedido desarrollar un API para el cálculo de las cuentas de restaurant
 * En otros restaurantes los precios ya incluyen el IVA, pero sí cobran el servicio del 10% sobre el total de la factura, siempre que el valor total de la misma supere los $15.000 pesos.(CalculadorCuentaConPropina).
 
 * En muchos otros sí se cobra el IVA. Sin embargo, la manera de hacerlo varía de dos formas:
-	* 19% estándar sobre todos los platos (CalcularodCuentaConIVA + VerificadorIVAEstandar).
+	* 19% estándar sobre todos los platos (CalculadorCuentaConIVA + VerificadorIVAEstandar).
 	* Aplicando un IVA diferencial a cada tipo de plato, previendo el régimen especial de impuestos a las comidas del el año 2016, donde:
 		* Las bebidas azucaradas (con más de 1000 calorías) tendrán un gravamen adicional del 10% (es decir, un gravamen del 29%).
 		* Los demás platos tendrán el gravamen estándar del 19%.
